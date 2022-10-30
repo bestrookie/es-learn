@@ -22,7 +22,7 @@ public class ES_Doc_Get {
                 RestClient.builder(new HttpHost("120.48.101.253",9200,"http"))
         );
         GetRequest request = new GetRequest();
-        request.index("bestrookie").id("1001");
+        request.index("bestrookie").id("1003");
         GetResponse get = esClient.get(request, RequestOptions.DEFAULT);
         System.out.println(get.getSourceAsString());
         //关闭es客户端

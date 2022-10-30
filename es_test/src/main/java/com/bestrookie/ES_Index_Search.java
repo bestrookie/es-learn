@@ -23,6 +23,7 @@ public class ES_Index_Search {
         System.out.println(getIndexResponse.getAliases());
         System.out.println(getIndexResponse.getMappings());
         System.out.println(getIndexResponse.getSettings());
+        System.out.println(getIndexResponse.getIndices());
         //关闭es客户端
         esClient.close();
     }
