@@ -22,7 +22,7 @@ public class ES_Client {
         );
         System.out.println("链接完成");
 
-        CreateIndexRequest request = new CreateIndexRequest("bestrookie");
+        CreateIndexRequest request = new CreateIndexRequest("shopping");
         CreateIndexResponse createIndexResponse = esClient.indices().create(request, RequestOptions.DEFAULT);
         boolean acknowledged = createIndexResponse.isAcknowledged();
         System.out.println("索引操作:"+acknowledged);

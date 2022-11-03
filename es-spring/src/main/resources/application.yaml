@@ -1,0 +1,9 @@
+logging:
+  level:
+     com:
+       bestrookie: debug
+elasticsearch:
+  host: 120.48.101.253
+  port: 9200
+server:
+  port: 8080
