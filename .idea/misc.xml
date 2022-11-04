@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/es_test/pom.xml" />
         <option value="$PROJECT_DIR$/es-spring/pom.xml" />
+        <option value="$PROJECT_DIR$/es-flink/pom.xml" />
       </list>
     </option>
   </component>

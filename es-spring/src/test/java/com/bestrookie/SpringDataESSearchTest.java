@@ -35,8 +35,7 @@ public class SpringDataESSearchTest {
 
     @Test
     public void termQuery(){
-        CriteriaQuery criteriaQuery = new CriteriaQuery(new Criteria("category").is("手机").and(new Criteria("title").is("小米手机8")));
-        List<Product> list = productMapper.findProductByCategoryAndIdBetween("小米手机5",5L,9L);
+        List<Product> list = productMapper.findProductByCategoryAndIdBetween("手机",5L,9L);
         for (Product product : list) {
             System.out.println(product);
         }

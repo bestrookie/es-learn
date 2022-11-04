@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="es_test" />
         <module name="es-spring" />
+        <module name="es-flink" />
         <module name="bestrookie" />
       </profile>
     </annotationProcessing>
