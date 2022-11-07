@@ -11,6 +11,7 @@
         <module name="es-spring" />
         <module name="es-flink" />
         <module name="bestrookie" />
+        <module name="es8-learn" />
       </profile>
     </annotationProcessing>
   </component>
