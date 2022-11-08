@@ -1,0 +1,6 @@
+elasticsearch:
+  username: elastic
+  passwd: 92147728Asd
+  apikey: RmJmdlZvUUI5Z0hweTRRazdtVHM6U3I4eGJ0SkdRNTJQazhFdlEwaV9WUQ==
+  # ??IP????
+  hosts: 120.48.101.253:9200
